@@ -1,0 +1,51 @@
+h3 {
+    font-family: "RC", sans-serif;
+    justify-content: center;
+    font-size: medium;
+}
+
+label,
+textarea,
+button {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.header {
+    text-align: center;
+}
+
+body {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 5px;
+}
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+label:not(:first-child) {
+    padding-top: 5px;
+}
+
+label {
+    font-size: small;
+}
+
+.buttons {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+textarea {
+    /* will prevent resizing horizontally */
+    resize: vertical;
+    min-height: 30px;
+    max-height: 100px;
+}
+abbr {
+    padding-left: 5px;
+}

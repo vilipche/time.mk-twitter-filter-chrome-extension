@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <script src="./panel.js"></script>
+        <script src="./tracker.js"></script>
+        <link rel="stylesheet" href="./panel.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="header">
+            <h3>Филтер за твитови на time.mk/twitter</h3>
+            <p>Сите низи на зборови мора да бидат поделени со запирка! <abbr title="@username1, @username2, @username3">пример</abbr></p>
+        </div>
+        <div class="inputs">
+            <label>Nickname</label>
+            <textarea type="text" id="nickname" autofocus></textarea>
+            <label>Карактери во nickname<abbr title="филтрирајте твитови според хаштаг, emoji, зборови во името на корисникот">пример</abbr></label>
+            <textarea type="text" id="stringInNickname" autofocus></textarea>
+            <label>@Username</label>
+            <textarea type="text" id="username"></textarea>
+            <label>Клучни зборови во твит</abbr></label>
+            <textarea type="text" id="keyWords"></textarea>
+        </div>        
+        <div class="buttons">
+            <button id="submitData">Зачувај</button>
+            <button id="resetData">Избриши</button> 
+        </div>
+    </body>
+</html>
